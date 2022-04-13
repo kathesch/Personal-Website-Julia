@@ -9,7 +9,7 @@ where appropriate -->
 <h1>Katherine Gruenewald</h1>
 ~~~
 
-blablabla
+Check this out!
 <!--
 ~~~
 <p style="font-size: 1.25em; line-height: 1.67em; text-align: center; margin: 1em 0; color: #111;">
