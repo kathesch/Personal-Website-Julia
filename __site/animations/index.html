@@ -53,13 +53,28 @@
         color: #cccccc;
         margin: 0.25em 0;
     }
+
+
+
+
+
+
+
+    
     </style>
     <nav class="sidebar-nav" style="opacity: 0.9">
-      <a class="sidebar-nav-item " href="/">Home</a>
+      <a class="sidebar-nav-item " href="/">Home </a>
       <a class="sidebar-nav-item " href="/about/">About</a>
+      
       <a class="sidebar-nav-item " href="/cv/">CV</a>
       <a class="sidebar-nav-item " href="/research/">Research</a>
       <a class="sidebar-nav-item active" href="/animations/">Animations</a>
+      <div class="subbar">
+        <a class="sidebar-nav-item" href="/animations/#interactive_stress-strain_curve">Interactive stress-strain curve</a>
+        <a class="sidebar-nav-item" href="/animations/#bee_swarm_image_interpolation_and_modal_analysis">Bee swarm image interpolation and modal analysis</a>
+        <a class="sidebar-nav-item" href="/animations/#lotka-volterra_network_modelling">Lotka-Volterra network modelling</a>
+        <a class="sidebar-nav-item" href="/animations/#eigenmodes_of_vibrations_for_simple_geometries">Eigenmodes of vibrations for simple geometries</a>
+      </div>
     </nav>
 
   </div>
@@ -73,7 +88,78 @@
 <div class="content container">
 
 <!-- Content appended here -->
-<div class="franklin-content"><div class="page-foot">
+<div class="franklin-content"><h1 id="gallery"><a href="#gallery" class="header-anchor">Gallery</a></h1>
+<h2 id="interactive_stress-strain_curve"><a href="#interactive_stress-strain_curve" class="header-anchor">Interactive stress-strain curve</a></h2>
+<p>We can model a simple polymer material with molecular dynamics and interactively output coordinates to Makie. </p>
+
+<figure style="text-align:center;border: thin silver solid;">
+<img src="/assets/nvearinter (1).gif" style="width:100%"/>
+<figcaption> Figure 1: Basic initialization
+</figure>
+
+<p>
+<figure style="text-align:center;border: thin silver solid;">
+<img src="/assets/stretchpolymer.gif" style="width:100%"/>
+<figcaption> Figure 2: Stretching
+</figure>
+ 
+<figure style="text-align:center;border: thin silver solid;">
+<img src="/assets/compresspolymer.gif" style="width:100%"/>
+<figcaption> Figure 3: Compression
+</figure>
+</p>
+<h2 id="bee_swarm_image_interpolation_and_modal_analysis"><a href="#bee_swarm_image_interpolation_and_modal_analysis" class="header-anchor">Bee swarm image interpolation and modal analysis</a></h2>
+
+<figure style="text-align:center;border: thin silver solid;">
+<img src="/assets/beeeinterpolation.gif" style="width:100%"/>
+<figcaption> Figure 1: Image analysis fitting a video of a bee swarm scattering to a 3D model.
+</figure>
+
+
+<figure style="text-align:center;border: thin silver solid;">
+<img src="/assets/beeeigenmodes.gif" style="width:100%"/>
+<figcaption> Figure 2: Computing vibrational modes of a bee swarm model ordered by energy (lowest to highest).
+</figure>
+
+<h2 id="lotka-volterra_network_modelling"><a href="#lotka-volterra_network_modelling" class="header-anchor">Lotka-Volterra network modelling</a></h2>
+
+<figure style="text-align:center;border: thin silver solid;">
+<img src="/assets/biomassflowlabeled.gif" style="width:100%"/>
+<figcaption> Figure 1: Simple graphic showing flow of biomass in a lotka-voltera network
+</figure>
+
+
+<figure style="text-align:center;border: thin silver solid;">
+<img src="/assets/biomassflownetwork.gif" style="width:100%"/>
+<figcaption> Figure 2: Biomass flow in a more complicated lotka-voltera network
+</figure>
+
+
+<figure style="text-align:center;border: thin silver solid;">
+<img src="/assets/neuralnet.gif" style="width:100%"/>
+<figcaption> Figure 3: Neural network controlling one organism's population to prevent extinction of organisms in other nodes of the network.
+</figure>
+
+<h2 id="eigenmodes_of_vibrations_for_simple_geometries"><a href="#eigenmodes_of_vibrations_for_simple_geometries" class="header-anchor">Eigenmodes of vibrations for simple geometries</a></h2>
+
+<figure style="text-align:center;border: thin silver solid;">
+<img src="/assets/lowest.gif" style="width:100%"/>
+<figcaption> Figure 1: Lowest order vibrational modes for a 2d plane bounded at its edges.
+</figure>
+
+
+<figure style="text-align:center;border: thin silver solid;">
+<img src="/assets/2ndeigenmode.gif" style="width:100%"/>
+<figcaption> Figure 2: 2nd lowest vibrational mode for the above plane.
+</figure>
+
+
+<figure style="text-align:center;border: thin silver solid;">
+<img src="/assets/3deigen.gif" style="width:100%"/>
+<figcaption> Figure 3: A volumetric vibrational mode in a cube.
+</figure>
+
+<div class="page-foot">
   <div class="copyright">
     &copy; Katherine Gruenewald. Last modified: April 13, 2022. Website built with <a href="https://github.com/tlienart/Franklin.jl">Franklin.jl</a> and <a href="https://github.com/tlienart/PkgPage.jl">PkgPage.jl</a>.
   </div>

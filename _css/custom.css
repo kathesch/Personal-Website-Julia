@@ -3,6 +3,14 @@ html, body {
     font-family: 'Work Sans', serif;
 }
 
+
+
+.important {
+    background-color: lemonchiffon;
+    padding: 0.5em;
+    margin-bottom: 1em;
+  }
+
 h1 { color: #333; }
 h1, h2, h3 {
     font-family: 'Source Serif Pro';

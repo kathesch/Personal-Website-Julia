@@ -1,6 +1,54 @@
 @def title = "Katherine Gruenewald - Animations"
 @def hasmath = false
 @def hascode = true
+
+
+\newcommand{\mtt}[2]{
+  ~~~
+<figure style="text-align:center;border: thin silver solid;">
+<img src="!#1" style="width:100%"/>
+<figcaption>#2
+</figure>
+~~~
+}
+
+# Gallery
+
+## Interactive stress-strain curve
+
+We can model a simple polymer material with molecular dynamics and interactively output coordinates to Makie. 
+
+
+\mtt{/assets/nvearinter (1).gif}{Figure 1: Basic initialization}
+
+ 
+\mtt{/assets/stretchpolymer.gif}{Figure 2: Stretching}
+\mtt{/assets/compresspolymer.gif}{Figure 3: Compression}
+
+## Bee swarm image interpolation and modal analysis
+
+\mtt{/assets/beeeinterpolation.gif}{Figure 1: Image analysis fitting a video of a bee swarm scattering to a 3D model.}
+
+\mtt{/assets/beeeigenmodes.gif}{Figure 2: Computing vibrational modes of a bee swarm model ordered by energy (lowest to highest). }
+
+
+## Lotka-Volterra network modelling
+
+\mtt{/assets/biomassflowlabeled.gif}{Figure 1: Simple graphic showing flow of biomass in a lotka-voltera network}
+
+\mtt{/assets/biomassflownetwork.gif}{Figure 2: Biomass flow in a more complicated lotka-voltera network}
+
+\mtt{/assets/neuralnet.gif}{Figure 3: Neural network controlling one organism's population to prevent extinction of organisms in other nodes of the network. }
+
+## Eigenmodes of vibrations for simple geometries
+
+\mtt{/assets/lowest.gif}{Figure 1: Lowest order vibrational modes for a 2d plane bounded at its edges.}
+
+\mtt{/assets/2ndeigenmode.gif}{Figure 2: 2nd lowest vibrational mode for the above plane.}
+
+\mtt{/assets/3deigen.gif}{Figure 3: A volumetric vibrational mode in a cube.}
+
+
 <!--
 # Code generation
 

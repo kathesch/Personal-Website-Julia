@@ -4,14 +4,36 @@
 <!-- Note: by default hasmath == true and hascode == false. You can change this in
 the config file by setting hasmath = false for instance and just setting it to true
 where appropriate -->
-
+\newcommand{\figenv}[3]{
 ~~~
-<h1>Katherine Gruenewald</h1>
+<figure style="text-align:left;">
+<img src="!#2" style="padding:0;#3" alt="#1"/>
+<figcaption>#1</figcaption>
+</figure>
 ~~~
+}
 
-Check this out! markdown oh i don't know 
+\newcommand{\mt}[1]{
+  ~~~
+<img src="!#1" style="width:100%"/>
+</figure>
+~~~
+}
 
-![ima](./_assets/Screen%20Shot%202022-01-24%20at%202.10.22%20AM.png)
+
+
+
+# Katherine Gruenewald
+
+
+\mt{/assets/nvearinter (1).gif}
+
+
+
+
+
+
+
 <!--
 ~~~
 <p style="font-size: 1.25em; line-height: 1.67em; text-align: center; margin: 1em 0; color: #111;">
