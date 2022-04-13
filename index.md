@@ -10,6 +10,8 @@ where appropriate -->
 ~~~
 
 Check this out! markdown oh i don't know 
+
+![ima](./_assets/Screen%20Shot%202022-01-24%20at%202.10.22%20AM.png)
 <!--
 ~~~
 <p style="font-size: 1.25em; line-height: 1.67em; text-align: center; margin: 1em 0; color: #111;">
