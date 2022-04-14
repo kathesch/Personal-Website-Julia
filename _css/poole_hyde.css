@@ -271,27 +271,32 @@ html {
   line-height: 1.75;
 }
 
-a.sidebar-nav-item:hover,
-a.sidebar-nav-item:focus {
-  text-decoration: underline;
-
-}
-
-.sidebar-nav-item:hover + .subbar{
-  display: block;
-}
-
 .subbar {
   border-radius: 5px;
   text-align: left;
   color: rgba(255,255,255,.5);
-  
   display: none;
 }
 
-.sidebar-nav-item.active + .subbar {
-  display: block;
+
+a.sidebar-nav-item:hover,
+a.sidebar-nav-item:focus {
+  text-decoration: underline;
+  
 }
+
+
+
+.subbar:hover, .sidebar-nav-item:hover + .subbar{
+  display: block;
+  margin-top: 0px;
+ }
+
+ .sidebar-nav-item.active + .subbar{
+  display: block;
+  margin-top: 0px;
+ }
+
 
 .subbar > .sidebar-nav-item{
   line-height: 1;

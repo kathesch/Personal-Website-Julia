@@ -1,6 +1,26 @@
 @def title = "Katherine Gruenewald — About"
 @def hasmath = false
 @def hascode = true
+
+
+
+~~~
+
+<img src="/assets/imageremove2.png" style="padding:1rem;border-radius:25%; width: 50%; float:right;"/>
+</figure>
+~~~
+
+
+# About me
+
+lorem ipsum
+
+Performance of symbolic simplification depends on the datastructures used to represent terms. Efficient datastructures often have the advantage of automatic simplification, and of efficient storage.
+
+The most basic term representation simply holds a function call and stores the function and the arguments it is called with. This is done by the `Term` type in SymbolicUtils. Functions that aren't commutative or associative, such as `sin` or `hypot` are stored as `Term`s. Commutatative and associative operations like `+`, `*`, and their supporting operations like `-`, `/` and `^`, when used on terms of type `<:Number`, stand to gain from the use of more efficient datastrucutres.
+
+
+
 <!--
 ## Term representation and simplification
 
