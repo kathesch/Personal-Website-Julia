@@ -39,11 +39,7 @@
       
     </div>
     <style>
-@media (max-width: 768px) {
-    .sidebar-footer {
-      display:none;
-    }
-}
+      
     .sidebar .container.sidebar-sticky {
         top: 0.5rem;
     }
@@ -61,11 +57,6 @@
         margin: 0.25em 0;
     }
 
-    @media (min-width:768px){
-      .sidebar-footer {
-        display:none;
-      }
-    }
 
     .sidebar-footer{
 height: 50px;
@@ -84,6 +75,14 @@ height: 50px;
 width: 50px;
 }
 
+a:hover img{
+  transform: scale(1.1);
+}
+
+@media (max-width: 480px) {
+    .sidebar-icon {
+        display:none;}
+    }
 
 
 
@@ -104,16 +103,23 @@ width: 50px;
         <a class="sidebar-nav-item" href="/project_showcase/#lotka-volterra_network_modelling">Lotka-Volterra network modelling</a>
         <a class="sidebar-nav-item" href="/project_showcase/#eigenmodes_of_vibrations_for_simple_geometries">Eigenmodes of vibrations for simple geometries</a>
       </div>
+
       
       
     </nav>
     
+    
+  </div>
+  <div class="sidebar-footer">
+    <a href="https://www.linkedin.com/in/katherine-gruenewald-0651a7163/">
+    <img  class="sidebar-icon" src="/assets/317725_linkedin_social_icon.svg" style="padding:0.0rem;border-radius:50%;"/>
+  </a>
+    <a href="https://github.com/kathesch">
+      <img class="sidebar-icon" src="/assets/4202098_github_code_developer_logo_icon.svg" style="padding:0.0rem;border-radius:50%;"/>
+    </a>
   </div>
   
-  <div class="sidebar-footer">
-    <img  class="sidebar-icon" src="/assets/317725_linkedin_social_icon.svg" style="padding:0.0rem;border-radius:50%;"/>
-    <img class="sidebar-icon" src="/assets/4202098_github_code_developer_logo_icon.svg" style="padding:0.0rem;border-radius:50%;"/>
-  </div>
+  
   
 </div>
 

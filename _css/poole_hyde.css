@@ -292,6 +292,8 @@ a.sidebar-nav-item:focus {
   margin-top: 0px;
  }
 
+
+
  .sidebar-nav-item.active + .subbar{
   display: block;
   margin-top: 0px;
