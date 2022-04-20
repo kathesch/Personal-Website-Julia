@@ -6,18 +6,23 @@
 
 ~~~
 
-<img src="/assets/imageremove2.png" style="padding:1rem;border-radius:25%; width: 50%; float:right;"/>
+<img src="/assets/imageremove2.png" style="padding:1rem;border-radius:25%; width: 30%; float:right;"/>
 </figure>
 ~~~
 
 
+\newcommand{\link}[2]{
+~~~
+<a href="#1">#2</a>
+~~~
+}
+
 # About me
 
-lorem ipsum
+My name is Katherine Schoeller Gruenewald, and I am 2nd year computational materials science student at CU Boulder. I am broadly interested in computational geometry and its applications in modelling complex, dynamical and often biological systems such as bee swarms, symbiosis, and polymer networks. Some visuals of my work can be found on my \link{/project_showcase/}{project showcase} page.
 
-Performance of symbolic simplification depends on the datastructures used to represent terms. Efficient datastructures often have the advantage of automatic simplification, and of efficient storage.
+This website was created primarily to document ongoing projects, helpful resources, and my professional devlopment in a similar vein to [Keenan Crane's website](https://www.cs.cmu.edu/~kmcrane/), [Tai-Danae Bradley's Mathema](https://www.math3ma.com), and [Chris Rackaukas' Stochastic Lifestyle](https://www.stochasticlifestyle.com). These have all been inspiring to me throughout my career in graduate school, and I hope that you might check them out if you haven't already!
 
-The most basic term representation simply holds a function call and stores the function and the arguments it is called with. This is done by the `Term` type in SymbolicUtils. Functions that aren't commutative or associative, such as `sin` or `hypot` are stored as `Term`s. Commutatative and associative operations like `+`, `*`, and their supporting operations like `-`, `/` and `^`, when used on terms of type `<:Number`, stand to gain from the use of more efficient datastrucutres.
 
 
 
