@@ -3,7 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  
+   <link rel="stylesheet" href="/libs/katex/katex.min.css">
+     
    <link rel="stylesheet" href="/libs/highlight/github.min.css">
    
   <link rel="stylesheet" href="/css/franklin.css">
@@ -132,23 +133,34 @@ a:hover img{
 <div class="content container">
 
 <!-- Content appended here -->
-<div class="franklin-content"><h1 id="making_a_navier-stokes_solver_in_julia"><a href="#making_a_navier-stokes_solver_in_julia" class="header-anchor">Making a Navier-Stokes solver in julia</a></h1>
-<p>If you are any sort of physics nerd, you&#39;ve probably seen a fluid animation like the one below. And if your experience was anything like mine, your first time seeing one probably included it at the beginning of a powerpoint and your professor stating that the the class was all about understanding the physics, math, or cooking behind it.</p>
+<div class="franklin-content"><h1 id="making_a_navier-stokes_solver_in_julia"><a href="#making_a_navier-stokes_solver_in_julia" class="header-anchor">Making a Navier-Stokes solver in Julia</a></h1>
+<p>If you are any sort of physics nerd, you&#39;ve probably seen a fluid animation like the one below. And if your experience was anything like mine, your first time probably included a powerpoint and a professor saying that the the class was all about understanding the physics, math, or cooking behind it.</p>
 <p>After an entire semester, probably, all you were left with was an understanding of jet turbines, differential equations, or bread baking, with nary a nifty lava lamp animation to be seen.</p>
-<p>In this post, I will try to provide the guidance you need to make your own simple fluid dynamics simulation like the one below starting from the Navier-Stokes equation. </p>
+<p>In this post, I will provide the background you need to make your own simple fluid dynamics simulation like the one below starting from the Navier-Stokes equation. </p>
 <p>You can see my own code <a href="https://github.com/kathesch/FiniteDifferenceFlowDemo.jl">here</a></p>
-<p>&#40;To be continued&#41;</p>
-
-<img src="/assets/flowcrop2.gif" style="padding:1rem;border-radius:0%; width: 80%; float:center;"/>
-</figure>
-
+<p><img src="/assets/flowcrop2.gif" alt="till" /></p>
+<h2 id="getting_started_with_julia"><a href="#getting_started_with_julia" class="header-anchor">Getting started with Julia</a></h2>
+<p>If you haven&#39;t heard of it yet, Julia is a high performance scientifc computating language. This <a href="https://www.youtube.com/watch?v&#61;JYs_94znYy0">video</a> by Fireship provides a good rundown of its features in 100 seconds. In a nutshell, it allows us to make scientifc models with the performance comparable &#40;or even exceeding&#41; C/C&#43;&#43; or fortran code, while still allowing the use of the expressive and terse style of python.</p>
+<p>Fluid dynamics is a very computationally demanding area, and not only that, the code we write can quickly become very cumbersome and complex as we add features to our model. Julia is uniquely positioned to allow us to write fast and minimally complex code which will allow us to efficiently explore and iterate on our fluid dynamics models. </p>
+<p>To install it, visit the Julia <a href="https://julialang.org/downloads/">download page</a> and follow your platform specific instructions. I have run into some issues using the pre-built binary for M1 ARM64 with Makie.jl, so if that is what you are using I recommend you to build the binary yourself for best results. </p>
+<h2 id="introduction_to_the_navier-stokes_equation"><a href="#introduction_to_the_navier-stokes_equation" class="header-anchor">Introduction to the Navier-Stokes equation</a></h2>
+<p>The Navier-Stokes equation is the governing equation of fluid dynamics. To a good approximation, it describes everything from the motion of clouds in the atmosphere to bath water circulating around a drain. You might be wondering: &quot;Wow&#33; That is a lot for one equation. It seems too good to be true&#33;&quot; And you would be right. The Navier-Stokes equation has a nasty catch: it is really difficult to solve. In fact, proving that it has at least one analytic solution is one of 7 famous famous mathematical problems posed in 2000 known as the <a href="https://en.wikipedia.org/wiki/Millennium_Prize_Problems">Millienium Prize Problems</a> &#40;these might have been called the Millenium Puzzles, but it seems Bandai Namco objected&#41;.</p>
+<div class="definition"><p><strong>The Navier Stokes equation</strong></p>
+\[ \frac{\partial \vec{v}}{\partial t} + (\vec{v} \cdot \nabla) \vec{v} = -\frac{1}{\rho}\nabla p + \nu \Delta \vec{v} \]</div>
+<p>As is often the case in math, partial credit is awarded. We don&#39;t need to produce a completely correct, mathematically precise solution, just one that is good enough for our purposes, and our purposes in this case are actually quite modest. We just want to see some level of fluid-like behavior. </p>
+<p>&#40;to be continued&#41;</p>
 <div class="page-foot">
   <div class="copyright">
-    &copy; Katherine Gruenewald. Last modified: May 24, 2022. Website built with <a href="https://github.com/tlienart/Franklin.jl">Franklin.jl</a> and <a href="https://github.com/tlienart/PkgPage.jl">PkgPage.jl</a>.
+    &copy; Katherine Gruenewald. Last modified: May 26, 2022. Website built with <a href="https://github.com/tlienart/Franklin.jl">Franklin.jl</a> and <a href="https://github.com/tlienart/PkgPage.jl">PkgPage.jl</a>.
   </div>
 </div>
 </div><!-- CONTENT ENDS HERE -->
     </div>  <!-- div: content container -->
+    
+        <script src="/libs/katex/katex.min.js"></script>
+<script src="/libs/katex/auto-render.min.js"></script>
+<script>renderMathInElement(document.body)</script>
+
     
     <script>
         var els =  document.querySelectorAll(".language-julia")

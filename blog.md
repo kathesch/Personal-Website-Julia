@@ -1,9 +1,6 @@
 @def title = "Katherine Gruenewald — About"
-@def hasmath = false
+@def hasmath = true
 @def hascode = true
-
-
-
 
 
 
@@ -13,22 +10,51 @@
 ~~~
 }
 
-# Making a Navier-Stokes solver in julia
+\newcommand{\definition}[2]{
+  @@definition
+  **!#1**
+  #2
+  @@
+}
 
-If you are any sort of physics nerd, you've probably seen a fluid animation like the one below. And if your experience was anything like mine, your first time seeing one probably included it at the beginning of a powerpoint and your professor stating that the the class was all about understanding the physics, math, or cooking behind it.
+
+# Making a Navier-Stokes solver in Julia
+
+If you are any sort of physics nerd, you've probably seen a fluid animation like the one below. And if your experience was anything like mine, your first time probably included a powerpoint and a professor saying that the the class was all about understanding the physics, math, or cooking behind it.
 
 After an entire semester, probably, all you were left with was an understanding of jet turbines, differential equations, or bread baking, with nary a nifty lava lamp animation to be seen.
 
-In this post, I will try to provide the guidance you need to make your own simple fluid dynamics simulation like the one below starting from the Navier-Stokes equation. 
+In this post, I will provide the background you need to make your own simple fluid dynamics simulation like the one below starting from the Navier-Stokes equation. 
 
 You can see my own code [here](https://github.com/kathesch/FiniteDifferenceFlowDemo.jl)
 
-(To be continued)
+![till](/assets/flowcrop2.gif)
 
-~~~
-<img src="/assets/flowcrop2.gif" style="padding:1rem;border-radius:0%; width: 80%; float:center;"/>
-</figure>
-~~~
+## Getting started with Julia
+
+If you haven't heard of it yet, Julia is a high performance scientifc computating language. This [video](https://www.youtube.com/watch?v=JYs_94znYy0) by Fireship provides a good rundown of its features in 100 seconds. In a nutshell, it allows us to make scientifc models with the performance comparable (or even exceeding) C/C++ or fortran code, while still allowing the use of the expressive and terse style of python.
+
+Fluid dynamics is a very computationally demanding area, and not only that, the code we write can quickly become very cumbersome and complex as we add features to our model. Julia is uniquely positioned to allow us to write fast and minimally complex code which will allow us to efficiently explore and iterate on our fluid dynamics models. 
+
+To install it, visit the Julia [download page](https://julialang.org/downloads/) and follow your platform specific instructions. I have run into some issues using the pre-built binary for M1 ARM64 with Makie.jl, so if that is what you are using I recommend you to build the binary yourself for best results. 
+
+## Introduction to the Navier-Stokes equation
+
+The Navier-Stokes equation is the governing equation of fluid dynamics. To a good approximation, it describes everything from the motion of clouds in the atmosphere to bath water circulating around a drain. You might be wondering: "Wow! That is a lot for one equation. It seems too good to be true!" And you would be right. The Navier-Stokes equation has a nasty catch: it is really difficult to solve. In fact, proving that it has at least one analytic solution is one of 7 famous famous mathematical problems posed in 2000 known as the [Millienium Prize Problems](https://en.wikipedia.org/wiki/Millennium_Prize_Problems) (these might have been called the Millenium Puzzles, but it seems Bandai Namco objected).
+
+\definition{The Navier Stokes equation}{
+ $$ \frac{\partial \vec{v}}{\partial t} + (\vec{v} \cdot \nabla) \vec{v} = -\frac{1}{\rho}\nabla p + \nu \Delta \vec{v} $$
+}
+
+As is often the case in math, partial credit is awarded. We don't need to produce a completely correct, mathematically precise solution, just one that is good enough for our purposes, and our purposes in this case are actually quite modest. We just want to see some level of fluid-like behavior. 
+
+(to be continued)
+
+
+
+
+
+
 
 
 
