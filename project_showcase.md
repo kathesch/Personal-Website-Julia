@@ -14,6 +14,10 @@
 
 # Gallery
 
+## Ray tracer
+
+\mtt{/assets/renderbest.png}{Figure 1: Ray tracer implmented in Julia using Peter Shirley’s book, "Ray Tracing in One Weekend".}
+
 ## Fast poisson solver using Euler-Poisson-Darboux Equation
 
 \mtt{/assets/plot_676.gif}{Figure 1: Comparison of EPD Eq. with a explict solver of the heat eq.}
