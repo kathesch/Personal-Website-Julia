@@ -14,6 +14,10 @@
 
 # Gallery
 
+## Fast poisson solver using Euler-Poisson-Darboux Equation
+
+\mtt{/assets/plot_676.gif}{Figure 1: Comparison of EPD Eq. with a explict solver of the heat eq.}
+
 ## Interactive stress-strain curve
 
 We can model a simple polymer material with molecular dynamics and interactively output coordinates to Makie. 
