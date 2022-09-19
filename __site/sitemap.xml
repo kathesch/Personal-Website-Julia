@@ -2,38 +2,38 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
-    <loc>research/index.html</loc>
-    <lastmod>2022-04-13</lastmod>
+    <loc>blog/index.html</loc>
+    <lastmod>2022-08-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
 </url>
 <url>
-    <loc>index.html</loc>
-    <lastmod>2022-04-20</lastmod>
+    <loc>research/index.html</loc>
+    <lastmod>2022-08-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
 </url>
 <url>
     <loc>cv/index.html</loc>
-    <lastmod>2022-04-13</lastmod>
+    <lastmod>2022-08-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>index.html</loc>
+    <lastmod>2022-08-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
 </url>
 <url>
     <loc>project_showcase/index.html</loc>
-    <lastmod>2022-04-14</lastmod>
+    <lastmod>2022-09-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
 </url>
 <url>
     <loc>about/index.html</loc>
-    <lastmod>2022-04-20</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-</url>
-<url>
-    <loc>blog/index.html</loc>
-    <lastmod>2022-05-26</lastmod>
+    <lastmod>2022-09-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
 </url>

@@ -5,8 +5,8 @@
 
 \newcommand{\mtt}[2]{
   ~~~
-<figure style="text-align:center;border: thin silver solid;">
-<img src="!#1" style="width:100%"/>
+<figure style="text-align:center;border: thin silver solid;max-width: 80%;">
+<img src="!#1" style="width:100%;">
 <figcaption>#2
 </figure>
 ~~~
@@ -14,13 +14,17 @@
 
 # Gallery
 
-## Ray tracer
-
-\mtt{/assets/renderbest.png}{Figure 1: Ray tracer implmented in Julia using Peter Shirley’s book, "Ray Tracing in One Weekend".}
-
 ## Fast poisson solver using Euler-Poisson-Darboux Equation
 
-\mtt{/assets/plot_676.gif}{Figure 1: Comparison of EPD Eq. with a explict solver of the heat eq.}
+\mtt{/assets/plot_676.gif}{Figure 1: Comparison of EPD Eq. with a explict solver of the heat eq. Closely related to the gossip problem in computer science.}
+
+## Ray tracer
+
+\mtt{/assets/renderbest.png}{Figure 1: Ray tracer implemented in Julia using Peter Shirley’s book, "Ray Tracing in One Weekend".}
+
+## Ellipsoidal Earth with trajectory animation
+
+\mtt{/assets/renderbest.png}{Figure 1: Trajectory of a rocket from GPS time series data projected accurately onto as WSG84 model of the Earth.}
 
 ## Interactive stress-strain curve
 
