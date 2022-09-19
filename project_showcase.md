@@ -24,7 +24,7 @@
 
 ## Ellipsoidal Earth with trajectory animation
 
-\mtt{/assets/renderbest.png}{Figure 1: Trajectory of a rocket from GPS time series data projected accurately onto as WSG84 model of the Earth.}
+\mtt{/assets/earth_spin (1).gif}{Figure 1: Trajectory of a rocket from GPS time series data projected accurately onto as WSG84 model of the Earth.}
 
 ## Interactive stress-strain curve
 
