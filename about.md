@@ -21,7 +21,7 @@
 
 My name is Katherine Schoeller Gruenewald, and I am 2nd year computational materials science student at CU Boulder. I am broadly interested in computational geometry and its applications in modelling complex, dynamical and often biological systems such as bee swarms, symbiosis, and polymer networks. Some visuals of my work can be found on my \link{/project_showcase/}{project showcase} page.
 
-This website was created primarily to document ongoing projects, helpful resources, and my professional devlopment in a similar vein to [Keenan Crane's website](https://www.cs.cmu.edu/~kmcrane/), [Tai-Danae Bradley's Mathema](https://www.math3ma.com), and [Chris Rackaukas' Stochastic Lifestyle](https://www.stochasticlifestyle.com). These have all been inspiring to me throughout my career in graduate school, and I hope that you might check them out if you haven't already! Nope
+This website was created primarily to document ongoing projects, helpful resources, and my professional development in a similar vein to [Keenan Crane's website](https://www.cs.cmu.edu/~kmcrane/), [Tai-Danae Bradley's Mathema](https://www.math3ma.com), and [Chris Rackaukas' Stochastic Lifestyle](https://www.stochasticlifestyle.com). These have all been inspiring to me throughout my career in graduate school, and I hope that you might check them out if you haven't already!
 
 
 
