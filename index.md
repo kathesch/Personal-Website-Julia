@@ -20,7 +20,7 @@ where appropriate -->
 ---
 # About me
 
-My name is Katherine Gruenewald, and welcome! I am a recent graduate from CU Boulder with a Master's in computational materials science. This is my professional site where you can see my various projects and tutorials on the Julia programming language and numerical methods for scientific computing. 
+My name is Katherine Gruenewald, and welcome! I am a recent graduate from CU Boulder with my Master's in computational materials science. This is my professional site where you can see my various projects and tutorials on the Julia programming language and numerical methods for scientific computing. 
 
 I am looking for employment, so if you need a Julia developer, general scientific programmer with a knack for visualizations, or else think I could be a fit for your company, check out my \link{CV}{CV} and let me know!
 
