@@ -14,17 +14,19 @@
 
 # Gallery
 
-## Fast poisson solver using Euler-Poisson-Darboux Equation
+These are a few visualizations from various projects I've done since Janurary 2020 with my most recent projects at the top.
 
-\mtt{/assets/plot_676.gif}{Figure 1: Comparison of EPD Eq. with a explict solver of the heat eq. Closely related to the gossip problem in computer science.}
+## Finite difference solver for the Navier-Stokes equation 
 
-## Ray tracer
+\mtt{/assets/flowcrop2.gif}{A coupled flow for the incompressible, viscous navier-stokes equation. You can view the code for this project <a href="[url](https://github.com/kathesch/FiniteDifferenceFlowDemo.jl)">on my github</a>}.
 
-\mtt{/assets/renderbest.png}{Figure 1: Ray tracer implemented in Julia using Peter Shirley’s book, "Ray Tracing in One Weekend".}
+## Fast poisson solver using the Euler-Poisson-Darboux Equation
+
+\mtt{/assets/plot_676.gif}{We can see the Euler-Poisson-Darboux (EPD) equation is able to find the "steady state" faster than the heat equation. Closely related to <a href="[url](https://en.wikipedia.org/wiki/Gossip_protocol)">gossip problem</a>} in computer science or more generally solving elliptic PDEs numerically quickly.}
 
 ## Ellipsoidal Earth with trajectory animation
 
-\mtt{/assets/earth_spin (1).gif}{Figure 1: Trajectory of a rocket from GPS time series data projected accurately onto as WSG84 model of the Earth.}
+\mtt{/assets/earth_spin (1).gif}{Trajectory of a rocket from GPS time series data projected accurately onto as WSG84 model of the Earth.}
 
 ## Interactive stress-strain curve
 
@@ -36,6 +38,10 @@ We can model a simple polymer material with molecular dynamics and interactively
  
 \mtt{/assets/stretchpolymer.gif}{Figure 2: Stretching}
 \mtt{/assets/compresspolymer.gif}{Figure 3: Compression}
+
+## Ray tracer
+
+\mtt{/assets/renderbest.png}{Ray tracer implemented in Julia using Peter Shirley’s book "Ray Tracing in One Weekend".}
 
 ## Bee swarm image interpolation and modal analysis
 

@@ -93,15 +93,17 @@ a:hover img{
     </style>
     <nav class="sidebar-nav" style="opacity: 0.9">
       <a class="sidebar-nav-item " href="/">About</a>
-      <a class="sidebar-nav-item " href="/blog/">Blog</a>
+      <!--<a class="sidebar-nav-item {{ispage blog/*}}active{{end}}" href="/blog/">Blog</a>
       <div class="subbar">
-        <a class="sidebar-nav-item" href="/blog/">Navier-Stokes Solver</a>
+        <a class="sidebar-nav-item" href="/Julia and numerical methods tutorial/">Navier-Stokes Solver</a>
        
-      </div>
+      </div>-->
+      <a class="sidebar-nav-item" href="/project_showcase/">Project Showcase</a>
+      <a class="sidebar-nav-item" href="https://kathesch.github.io/JuliaTutorial.jl/dev/">Tutorials</a>
       <!--<a class="sidebar-nav-item {{ispage about.html}}active{{end}}" href="/about/">About</a>-->
       <a class="sidebar-nav-item " href="/assets/KatherineGruenewaldCV.pdf">CV</a>
       <!--<a class="sidebar-nav-item {{ispage research/*}}active{{end}}" href="/research/">Research</a>-->
-      <a class="sidebar-nav-item" href="/project_showcase/">Project Showcase</a>
+      
       <div class="subbar">
         <!--<a class="sidebar-nav-item" href="/project_showcase/#interactive_stress-strain_curve">Interactive stress-strain curve</a>
         <a class="sidebar-nav-item" href="/project_showcase/#bee_swarm_image_interpolation_and_modal_analysis">Bee swarm image interpolation and modal analysis</a>
@@ -139,13 +141,19 @@ a:hover img{
 </figure>
 
 <h1 id="about_me"><a href="#about_me" class="header-anchor">About me</a></h1>
-<p>My name is Katherine Schoeller Gruenewald, and I am 2nd year computational materials science student at CU Boulder. I am broadly interested in computational geometry and its applications in modelling complex, dynamical and often biological systems such as bee swarms, symbiosis, and polymer networks. Some visuals of my work can be found on my 
-<a href=" /project_showcase/"> project showcase</a>
- page.</p>
-<p>This website was created primarily to document ongoing projects, helpful resources, and my professional devlopment in a similar vein to <a href="https://www.cs.cmu.edu/~kmcrane/">Keenan Crane&#39;s website</a>, <a href="https://www.math3ma.com">Tai-Danae Bradley&#39;s Mathema</a>, and <a href="https://www.stochasticlifestyle.com">Chris Rackaukas&#39; Stochastic Lifestyle</a>. These have all been inspiring to me throughout my career in graduate school, and I hope that you might check them out if you haven&#39;t already&#33; Nope</p>
+<p>My name is Katherine Gruenewald, and I recently received my Master&#39;s degree in materials science from CU Boulder. I am looking for employment, so if you need a Julia developer, general scientific programmer with a knack for visualizations, or else think I could be a fit for your company, check out my 
+<a href=" CV"> CV</a>
+&#41;&#33;</p>
+<p>You can view a few projects I have worked on in the 
+<a href=" project showcase"> /project_showcase/</a>
+. Some notable examples are a finite difference solver for the incompressible Navier-Stokes equation and a velocity-verlet integrator for polymer dynamics. I am interested in computational geometry, and in particular, using ideas from <a href="https://en.wikipedia.org/wiki/Symplectic_geometry">symplectic geometry</a> to make numerical algorithms which preserve quantities such as the density of a fluid in CFD, object identification/tracking in computer vision, energy in a molecular dynamics simulation, and many others.</p>
+<p>I also developed a few 
+<a href=" https://kathesch.github.io/JuliaTutorial.jl/dev/"> tutorials</a>
+ aimed at getting you set up quickly with Julia programming language as well making your own numerical methods. It has a fun example of developing a linear solver from scratch with comparable performance to Julia&#39;s LinearAlgebra.jl or numpy.</p>
+<p>This website was created primarily to document ongoing projects, helpful resources, and my professional development in a similar vein to <a href="https://www.cs.cmu.edu/~kmcrane/">Keenan Crane&#39;s website</a>, <a href="https://www.math3ma.com">Tai-Danae Bradley&#39;s Mathema</a>, and <a href="https://www.stochasticlifestyle.com">Chris Rackaukas&#39; Stochastic Lifestyle</a>. These have all been inspiring to me throughout my career in graduate school, and I hope that you might check them out if you haven&#39;t already&#33;</p>
 <div class="page-foot">
   <div class="copyright">
-    &copy; Katherine Gruenewald. Last modified: September 19, 2022. Website built with <a href="https://github.com/tlienart/Franklin.jl">Franklin.jl</a> and <a href="https://github.com/tlienart/PkgPage.jl">PkgPage.jl</a>.
+    &copy; Katherine Gruenewald. Last modified: October 03, 2022. Website built with <a href="https://github.com/tlienart/Franklin.jl">Franklin.jl</a> and <a href="https://github.com/tlienart/PkgPage.jl">PkgPage.jl</a>.
   </div>
 </div>
 </div><!-- CONTENT ENDS HERE -->

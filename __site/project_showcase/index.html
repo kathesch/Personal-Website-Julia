@@ -93,15 +93,17 @@ a:hover img{
     </style>
     <nav class="sidebar-nav" style="opacity: 0.9">
       <a class="sidebar-nav-item " href="/">About</a>
-      <a class="sidebar-nav-item " href="/blog/">Blog</a>
+      <!--<a class="sidebar-nav-item {{ispage blog/*}}active{{end}}" href="/blog/">Blog</a>
       <div class="subbar">
-        <a class="sidebar-nav-item" href="/blog/">Navier-Stokes Solver</a>
+        <a class="sidebar-nav-item" href="/Julia and numerical methods tutorial/">Navier-Stokes Solver</a>
        
-      </div>
+      </div>-->
+      <a class="sidebar-nav-item" href="/project_showcase/">Project Showcase</a>
+      <a class="sidebar-nav-item" href="https://kathesch.github.io/JuliaTutorial.jl/dev/">Tutorials</a>
       <!--<a class="sidebar-nav-item {{ispage about.html}}active{{end}}" href="/about/">About</a>-->
       <a class="sidebar-nav-item " href="/assets/KatherineGruenewaldCV.pdf">CV</a>
       <!--<a class="sidebar-nav-item {{ispage research/*}}active{{end}}" href="/research/">Research</a>-->
-      <a class="sidebar-nav-item" href="/project_showcase/">Project Showcase</a>
+      
       <div class="subbar">
         <!--<a class="sidebar-nav-item" href="/project_showcase/#interactive_stress-strain_curve">Interactive stress-strain curve</a>
         <a class="sidebar-nav-item" href="/project_showcase/#bee_swarm_image_interpolation_and_modal_analysis">Bee swarm image interpolation and modal analysis</a>
@@ -134,25 +136,26 @@ a:hover img{
 
 <!-- Content appended here -->
 <div class="franklin-content"><h1 id="gallery"><a href="#gallery" class="header-anchor">Gallery</a></h1>
-<h2 id="fast_poisson_solver_using_euler-poisson-darboux_equation"><a href="#fast_poisson_solver_using_euler-poisson-darboux_equation" class="header-anchor">Fast poisson solver using Euler-Poisson-Darboux Equation</a></h2>
-
+<p>These are a few visualizations from various projects I&#39;ve done since Janurary 2020 with my most recent projects at the top.</p>
+<h2 id="finite_difference_solver_for_the_navier-stokes_equation"><a href="#finite_difference_solver_for_the_navier-stokes_equation" class="header-anchor">Finite difference solver for the Navier-Stokes equation </a></h2>
+<p>
+<figure style="text-align:center;border: thin silver solid;max-width: 80%;">
+<img src="/assets/flowcrop2.gif" style="width:100%;">
+<figcaption> A coupled flow for the incompressible, viscous navier-stokes equation. You can view the code for this project <a href="[url](https://github.com/kathesch/FiniteDifferenceFlowDemo.jl)">on my github</a>
+</figure>
+.</p>
+<h2 id="fast_poisson_solver_using_the_euler-poisson-darboux_equation"><a href="#fast_poisson_solver_using_the_euler-poisson-darboux_equation" class="header-anchor">Fast poisson solver using the Euler-Poisson-Darboux Equation</a></h2>
+<p>
 <figure style="text-align:center;border: thin silver solid;max-width: 80%;">
 <img src="/assets/plot_676.gif" style="width:100%;">
-<figcaption> Figure 1: Comparison of EPD Eq. with a explict solver of the heat eq. Closely related to the gossip problem in computer science.
+<figcaption> We can see the Euler-Poisson-Darboux (EPD) equation is able to find the "steady state" faster than the heat equation. Closely related to <a href="[url](https://en.wikipedia.org/wiki/Gossip_protocol)">gossip problem</a>
 </figure>
-
-<h2 id="ray_tracer"><a href="#ray_tracer" class="header-anchor">Ray tracer</a></h2>
-
-<figure style="text-align:center;border: thin silver solid;max-width: 80%;">
-<img src="/assets/renderbest.png" style="width:100%;">
-<figcaption> Figure 1: Ray tracer implemented in Julia using Peter Shirley’s book, "Ray Tracing in One Weekend".
-</figure>
-
+ in computer science or more generally solving elliptic PDEs numerically quickly.&#125;</p>
 <h2 id="ellipsoidal_earth_with_trajectory_animation"><a href="#ellipsoidal_earth_with_trajectory_animation" class="header-anchor">Ellipsoidal Earth with trajectory animation</a></h2>
 
 <figure style="text-align:center;border: thin silver solid;max-width: 80%;">
 <img src="/assets/earth_spin (1).gif" style="width:100%;">
-<figcaption> Figure 1: Trajectory of a rocket from GPS time series data projected accurately onto as WSG84 model of the Earth.
+<figcaption> Trajectory of a rocket from GPS time series data projected accurately onto as WSG84 model of the Earth.
 </figure>
 
 <h2 id="interactive_stress-strain_curve"><a href="#interactive_stress-strain_curve" class="header-anchor">Interactive stress-strain curve</a></h2>
@@ -174,6 +177,13 @@ a:hover img{
 <figcaption> Figure 3: Compression
 </figure>
 </p>
+<h2 id="ray_tracer"><a href="#ray_tracer" class="header-anchor">Ray tracer</a></h2>
+
+<figure style="text-align:center;border: thin silver solid;max-width: 80%;">
+<img src="/assets/renderbest.png" style="width:100%;">
+<figcaption> Ray tracer implemented in Julia using Peter Shirley’s book "Ray Tracing in One Weekend".
+</figure>
+
 <h2 id="bee_swarm_image_interpolation_and_modal_analysis"><a href="#bee_swarm_image_interpolation_and_modal_analysis" class="header-anchor">Bee swarm image interpolation and modal analysis</a></h2>
 
 <figure style="text-align:center;border: thin silver solid;max-width: 80%;">
@@ -227,7 +237,7 @@ a:hover img{
 
 <div class="page-foot">
   <div class="copyright">
-    &copy; Katherine Gruenewald. Last modified: September 19, 2022. Website built with <a href="https://github.com/tlienart/Franklin.jl">Franklin.jl</a> and <a href="https://github.com/tlienart/PkgPage.jl">PkgPage.jl</a>.
+    &copy; Katherine Gruenewald. Last modified: October 03, 2022. Website built with <a href="https://github.com/tlienart/Franklin.jl">Franklin.jl</a> and <a href="https://github.com/tlienart/PkgPage.jl">PkgPage.jl</a>.
   </div>
 </div>
 </div><!-- CONTENT ENDS HERE -->

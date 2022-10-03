@@ -17,13 +17,22 @@ where appropriate -->
 ~~~
 }
 
-
-
+---
 # About me
 
-My name is Katherine Schoeller Gruenewald, and I am 2nd year computational materials science student at CU Boulder. I am broadly interested in computational geometry and its applications in modelling complex, dynamical and often biological systems such as bee swarms, symbiosis, and polymer networks. Some visuals of my work can be found on my \link{/project_showcase/}{project showcase} page.
+My name is Katherine Gruenewald, and welcome! I am a recent graduate from CU Boulder with a Master's in computational materials science. This is my professional site where you can see my various projects and tutorials on the Julia programming language and numerical methods for scientific computing. 
 
-This website was created primarily to document ongoing projects, helpful resources, and my professional devlopment in a similar vein to [Keenan Crane's website](https://www.cs.cmu.edu/~kmcrane/), [Tai-Danae Bradley's Mathema](https://www.math3ma.com), and [Chris Rackaukas' Stochastic Lifestyle](https://www.stochasticlifestyle.com). These have all been inspiring to me throughout my career in graduate school, and I hope that you might check them out if you haven't already!
+I am looking for employment, so if you need a Julia developer, general scientific programmer with a knack for visualizations, or else think I could be a fit for your company, check out my \link{CV}{CV} and let me know!
+
+---
+
+# What's here
+
+My projects are aimed towards taking advantage of the Julia programming language to develop fast and intuitive numerical algorithms for scientific computing. I am particularly interested in exploring ideas from [symplectic geometry](https://en.wikipedia.org/wiki/Symplectic_geometry) to make numerical algorithms which preserve quantities such as the density of a fluid in CFD, object identification/tracking in computer vision, energy in a molecular dynamics simulation, and many others.
+
+You can view some of these projects in the \link{/project_showcase/}{project showcase}. Some notable examples are a finite difference solver for the incompressible Navier-Stokes equation and a velocity Verlet integrator for examining polymer mechanics 
+
+I also developed a few \link{https://kathesch.github.io/JuliaTutorial.jl/dev/}{tutorials} aimed at getting you set up quickly with Julia programming language as well making your own numerical methods. It has a fun example of developing a linear solver from scratch with comparable performance to Julia's LinearAlgebra.jl or numpy.
 
 
 

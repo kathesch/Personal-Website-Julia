@@ -19,9 +19,15 @@
 
 # About me
 
-My name is Katherine Schoeller Gruenewald, and I am 2nd year computational materials science student at CU Boulder. I am broadly interested in computational geometry and its applications in modelling complex, dynamical and often biological systems such as bee swarms, symbiosis, and polymer networks. Some visuals of my work can be found on my \link{/project_showcase/}{project showcase} page.
+My name is Katherine Gruenewald, and I recently received my Master's degree in materials science from CU Boulder. I am looking for employment, so if you need a Julia developer, general scientific programmer with a knack for visualizations, or else think I could be a fit for your company, check out my \link{CV}{CV})!
+
+You can view a few projects I have worked on in the \link{project showcase}{/project_showcase/}. Some notable examples are a finite difference solver for the incompressible Navier-Stokes equation and a velocity-verlet integrator for polymer dynamics. I am interested in computational geometry, and in particular, using ideas from [symplectic geometry](https://en.wikipedia.org/wiki/Symplectic_geometry) to make numerical algorithms which preserve quantities such as the density of a fluid in CFD, object identification/tracking in computer vision, energy in a molecular dynamics simulation, and many others.
+
+I also developed a few \link{https://kathesch.github.io/JuliaTutorial.jl/dev/}{tutorials} aimed at getting you set up quickly with Julia programming language as well making your own numerical methods. It has a fun example of developing a linear solver from scratch with comparable performance to Julia's LinearAlgebra.jl or numpy.
 
 This website was created primarily to document ongoing projects, helpful resources, and my professional development in a similar vein to [Keenan Crane's website](https://www.cs.cmu.edu/~kmcrane/), [Tai-Danae Bradley's Mathema](https://www.math3ma.com), and [Chris Rackaukas' Stochastic Lifestyle](https://www.stochasticlifestyle.com). These have all been inspiring to me throughout my career in graduate school, and I hope that you might check them out if you haven't already!
+
+
 
 
 
