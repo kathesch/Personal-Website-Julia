@@ -14,7 +14,11 @@
 
 # Gallery
 
-These are a few visualizations from various projects I've done since Janurary 2020 with my most recent projects at the top.
+These are a few visualizations from various projects I've done since January 2020 with my most recent projects at the top.
+
+## Error and sensitivity of single steps of ODE solvers
+
+\mtt{/assets/IMEX_demo.gif}{Uses DifferentialEquations.jl to plot single steps of any ODE solver in DifferentialEquations.jl. You can see how the ODE solver introduces error by "jumping" to adjacent integral curves of the exact solution of the differential equation.}.
 
 ## Finite difference solver for the Navier-Stokes equation 
 
