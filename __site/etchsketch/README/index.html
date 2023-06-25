@@ -1,3 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  
+  <link rel="stylesheet" href="/css/franklin.css">
+<link rel="stylesheet" href="/css/poole_hyde.css">
+<link rel="stylesheet" href="/css/custom.css">
+<!-- style adjustments -->
+<style>
+  html {font-size: 17px;}
+  .franklin-content {position: relative; padding-left: 8%; padding-right: 0%;}
+  @media (min-width: 940px) {
+    .franklin-content {width: 110%; margin-left: auto; margin-right: auto;}
+  }
+  @media (max-width: 768px) {
+    .franklin-content {padding-left: 6%; padding-right: 6%;}
+  }
+</style>
+<link rel="icon" href="/assets/Screen Shot 2022-04-19 at 9.16.44 PM.png" style="border-radius:50%;">
+
+
+
+   <title>SymbolicUtils.jl</title>  
+</head>
+<body>
 <div class="sidebar">
 
   <div class="container sidebar-sticky">
@@ -59,7 +87,7 @@
       }
     </style>
     <nav class="sidebar-nav" style="opacity: 0.9">
-      <a class="sidebar-nav-item {{ispage index.html}}active{{end}}" href="/">About</a>
+      <a class="sidebar-nav-item " href="/">About</a>
       <!--<a class="sidebar-nav-item {{ispage blog/*}}active{{end}}" href="/blog/">Blog</a>
       <div class="subbar">
         <a class="sidebar-nav-item" href="/Julia and numerical methods tutorial/">Navier-Stokes Solver</a>
@@ -70,7 +98,7 @@
 
       <a class="sidebar-nav-item" href="https://kathesch.github.io/JuliaTutorial.jl/dev/">Tutorials</a>
       <!--<a class="sidebar-nav-item {{ispage about.html}}active{{end}}" href="/about/">About</a>-->
-      <a class="sidebar-nav-item {{ispage cv/*}}active{{end}}" href="/assets/Gruenewald_Resume_Template.pdf">CV</a>
+      <a class="sidebar-nav-item " href="/assets/Gruenewald_Resume_Template.pdf">CV</a>
 
 
       <div class="subbar">
@@ -105,3 +133,26 @@
 
 
 <div class="content container">
+<!-- Content appended here -->
+<div class="franklin-content"><h1 id="hello_world"><a href="#hello_world" class="header-anchor">Hello world</a></h1>
+<div class="page-foot">
+  <div class="copyright">
+    &copy; Katherine Gruenewald. Last modified: June 25, 2023. Website built with <a href="https://github.com/tlienart/Franklin.jl">Franklin.jl</a> and <a href="https://github.com/tlienart/PkgPage.jl">PkgPage.jl</a>.
+  </div>
+</div>
+</div><!-- CONTENT ENDS HERE -->
+    </div>  <!-- div: content container -->
+    
+    <script>
+        var els =  document.querySelectorAll(".language-julia")
+        for (var i=0, l = els.length; i < l; i++) {
+            var el = els[i]
+            var out = el.parentNode.nextSibling
+            if (out.tagName === "PRE") {
+                out.className = out.className + " code-output"
+            }
+        }
+    </script>
+    
+  </body>
+</html>

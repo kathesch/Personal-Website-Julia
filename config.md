@@ -1,3 +1,5 @@
+@def ignore = ["etchsketch/.git/", "calculator/.git/", "Manifest.toml", "Project.toml"]
+
 <!--
 The definitions here control the layout of the page: basic geometry, colors,
 and elements. To avoid errors, do not remove definitions, rather, leave them

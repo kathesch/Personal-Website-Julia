@@ -95,12 +95,15 @@
        
       </div>-->
       <a class="sidebar-nav-item" href="/project_showcase/">Project Showcase</a>
+      
+
       <a class="sidebar-nav-item" href="https://kathesch.github.io/JuliaTutorial.jl/dev/">Tutorials</a>
       <!--<a class="sidebar-nav-item {{ispage about.html}}active{{end}}" href="/about/">About</a>-->
       <a class="sidebar-nav-item " href="/assets/Gruenewald_Resume_Template.pdf">CV</a>
-      <!--<a class="sidebar-nav-item {{ispage research/*}}active{{end}}" href="/research/">Research</a>-->
+
 
       <div class="subbar">
+        
         <!--<a class="sidebar-nav-item" href="/project_showcase/#interactive_stress-strain_curve">Interactive stress-strain curve</a>
         <a class="sidebar-nav-item" href="/project_showcase/#bee_swarm_image_interpolation_and_modal_analysis">Bee swarm image interpolation and modal analysis</a>
         <a class="sidebar-nav-item" href="/project_showcase/#lotka-volterra_network_modelling">Lotka-Volterra network modelling</a>
@@ -133,7 +136,15 @@
 <div class="content container">
 <!-- Content appended here -->
 <div class="franklin-content"><h1 id="gallery"><a href="#gallery" class="header-anchor">Gallery</a></h1>
-<p>These are a few visualizations from various projects I&#39;ve done since January 2020 with my most recent projects at the top.</p>
+<p>Various visualizations for some projects I have worked on since 2020. Enjoy&#33;</p>
+<h2 id="calculator"><a href="#calculator" class="header-anchor">Calculator</a></h2>
+<p>I used a <a href="https://en.wikipedia.org/wiki/Shift-reduce_parser">shift-reduce parser</a> to mostly learn how to make one, but also to avoid using Javascript&#39;s infamous eval function which is both slow &#40;not compiled&#41; and a potential security vulnerability. You can see the source code on my <a href="https://github.com/kathesch/calculator">github</a>. 
+<iframe src="../calculator/index.html" scrolling="no" style="min-height: 80vh; min-width: 50vw; border:none"></iframe>
+</p>
+<h2 id="etch-a-sketch"><a href="#etch-a-sketch" class="header-anchor">Etch-a-sketch</a></h2>
+<p>A Javascript learning project. Just doodle&#33; 
+<iframe src="../etchsketch/index.html" scrolling="no" style="min-height: 80vh; min-width: 50vw; border: none;"></iframe>
+</p>
 <h2 id="error_and_sensitivity_of_single_steps_of_ode_solvers"><a href="#error_and_sensitivity_of_single_steps_of_ode_solvers" class="header-anchor">Error and sensitivity of single steps of ODE solvers</a></h2>
 <p>
 <figure style="text-align:center;border: thin silver solid;max-width: 80%;">
@@ -145,16 +156,16 @@
 <p>
 <figure style="text-align:center;border: thin silver solid;max-width: 80%;">
 <img src="/assets/flowcrop2.gif" style="width:100%;">
-<figcaption> A coupled flow for the incompressible, viscous navier-stokes equation. You can view the code for this project <a href="[url](https://github.com/kathesch/FiniteDifferenceFlowDemo.jl)">on my github</a>
+<figcaption> A coupled flow for the incompressible, viscous navier-stokes equation. You can view the course code on my <a href="[url](https://github.com/kathesch/FiniteDifferenceFlowDemo.jl)">github</a>
 </figure>
 .</p>
 <h2 id="fast_poisson_solver_using_the_euler-poisson-darboux_equation"><a href="#fast_poisson_solver_using_the_euler-poisson-darboux_equation" class="header-anchor">Fast poisson solver using the Euler-Poisson-Darboux Equation</a></h2>
-<p>
+
 <figure style="text-align:center;border: thin silver solid;max-width: 80%;">
 <img src="/assets/plot_676.gif" style="width:100%;">
-<figcaption> We can see the Euler-Poisson-Darboux (EPD) equation is able to find the "steady state" faster than the heat equation. Closely related to <a href="[url](https://en.wikipedia.org/wiki/Gossip_protocol)">gossip problem</a>
+<figcaption> We can see the Euler-Poisson-Darboux (EPD) equation is able to find the "steady state" faster than the heat equation. Closely related to <a href="[url](https://en.wikipedia.org/wiki/Gossip_protocol)">gossip problem</a> in computer science or more generally solving elliptic PDEs numerically quickly.
 </figure>
- in computer science or more generally solving elliptic PDEs numerically quickly.&#125;</p>
+
 <h2 id="ellipsoidal_earth_with_trajectory_animation"><a href="#ellipsoidal_earth_with_trajectory_animation" class="header-anchor">Ellipsoidal Earth with trajectory animation</a></h2>
 
 <figure style="text-align:center;border: thin silver solid;max-width: 80%;">
@@ -220,28 +231,9 @@
 <figcaption> Figure 3: Neural network controlling one organism's population to prevent extinction of organisms in other nodes of the network.
 </figure>
 
-<h2 id="eigenmodes_of_vibrations_for_simple_geometries"><a href="#eigenmodes_of_vibrations_for_simple_geometries" class="header-anchor">Eigenmodes of vibrations for simple geometries</a></h2>
-
-<figure style="text-align:center;border: thin silver solid;max-width: 80%;">
-<img src="/assets/lowest.gif" style="width:100%;">
-<figcaption> Figure 1: Lowest order vibrational modes for a 2d plane bounded at its edges.
-</figure>
-
-
-<figure style="text-align:center;border: thin silver solid;max-width: 80%;">
-<img src="/assets/2ndeigenmode.gif" style="width:100%;">
-<figcaption> Figure 2: 2nd lowest vibrational mode for the above plane.
-</figure>
-
-
-<figure style="text-align:center;border: thin silver solid;max-width: 80%;">
-<img src="/assets/3deigen.gif" style="width:100%;">
-<figcaption> Figure 3: A volumetric vibrational mode in a cube.
-</figure>
-
 <div class="page-foot">
   <div class="copyright">
-    &copy; Katherine Gruenewald. Last modified: October 07, 2022. Website built with <a href="https://github.com/tlienart/Franklin.jl">Franklin.jl</a> and <a href="https://github.com/tlienart/PkgPage.jl">PkgPage.jl</a>.
+    &copy; Katherine Gruenewald. Last modified: June 25, 2023. Website built with <a href="https://github.com/tlienart/Franklin.jl">Franklin.jl</a> and <a href="https://github.com/tlienart/PkgPage.jl">PkgPage.jl</a>.
   </div>
 </div>
 </div><!-- CONTENT ENDS HERE -->

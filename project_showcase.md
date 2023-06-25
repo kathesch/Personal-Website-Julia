@@ -14,7 +14,19 @@
 
 # Gallery
 
-These are a few visualizations from various projects I've done since January 2020 with my most recent projects at the top.
+Various visualizations for some projects I have worked on since 2020. Enjoy!
+
+## Calculator
+I used a [shift-reduce parser](https://en.wikipedia.org/wiki/Shift-reduce_parser) to mostly learn how to make one, but also to avoid using Javascript's infamous eval function which is both slow (not compiled) and a potential security vulnerability. You can see the source code on my [github](https://github.com/kathesch/calculator). 
+~~~
+<iframe src="../calculator/index.html" scrolling="no" style="min-height: 80vh; min-width: 50vw; border:none"></iframe>
+~~~
+
+## Etch-a-sketch
+A Javascript learning project. Just doodle!
+~~~
+<iframe src="../etchsketch/index.html" scrolling="no" style="min-height: 80vh; min-width: 50vw; border: none;"></iframe>
+~~~
 
 ## Error and sensitivity of single steps of ODE solvers
 
@@ -22,11 +34,11 @@ These are a few visualizations from various projects I've done since January 202
 
 ## Finite difference solver for the Navier-Stokes equation 
 
-\mtt{/assets/flowcrop2.gif}{A coupled flow for the incompressible, viscous navier-stokes equation. You can view the code for this project <a href="[url](https://github.com/kathesch/FiniteDifferenceFlowDemo.jl)">on my github</a>}.
+\mtt{/assets/flowcrop2.gif}{A coupled flow for the incompressible, viscous navier-stokes equation. You can view the course code on my <a href="[url](https://github.com/kathesch/FiniteDifferenceFlowDemo.jl)">github</a>}.
 
 ## Fast poisson solver using the Euler-Poisson-Darboux Equation
 
-\mtt{/assets/plot_676.gif}{We can see the Euler-Poisson-Darboux (EPD) equation is able to find the "steady state" faster than the heat equation. Closely related to <a href="[url](https://en.wikipedia.org/wiki/Gossip_protocol)">gossip problem</a>} in computer science or more generally solving elliptic PDEs numerically quickly.}
+\mtt{/assets/plot_676.gif}{We can see the Euler-Poisson-Darboux (EPD) equation is able to find the "steady state" faster than the heat equation. Closely related to <a href="[url](https://en.wikipedia.org/wiki/Gossip_protocol)">gossip problem</a> in computer science or more generally solving elliptic PDEs numerically quickly.}
 
 ## Ellipsoidal Earth with trajectory animation
 
@@ -62,6 +74,7 @@ We can model a simple polymer material with molecular dynamics and interactively
 
 \mtt{/assets/neuralnet.gif}{Figure 3: Neural network controlling one organism's population to prevent extinction of organisms in other nodes of the network. }
 
+<!-->
 ## Eigenmodes of vibrations for simple geometries
 
 \mtt{/assets/lowest.gif}{Figure 1: Lowest order vibrational modes for a 2d plane bounded at its edges.}
@@ -69,7 +82,7 @@ We can model a simple polymer material with molecular dynamics and interactively
 \mtt{/assets/2ndeigenmode.gif}{Figure 2: 2nd lowest vibrational mode for the above plane.}
 
 \mtt{/assets/3deigen.gif}{Figure 3: A volumetric vibrational mode in a cube.}
-
+-->
 
 <!--
 # Code generation
