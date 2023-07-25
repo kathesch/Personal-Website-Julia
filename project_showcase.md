@@ -16,6 +16,10 @@
 
 Various visualizations for some projects I have worked on since 2020. Enjoy!
 
+## Server-side tic-tac-toe!
+
+You can play server-side tic-tac-toe [here](www.kathesch.com/tictactoe)! Uses htmx and oxygen.jl
+
 ## Calculator
 I used a [shift-reduce parser](https://en.wikipedia.org/wiki/Shift-reduce_parser) to mostly learn how to make one, but also to avoid using Javascript's infamous eval function which is both slow (not compiled) and a potential security vulnerability. You can see the source code on my [github](https://github.com/kathesch/calculator). 
 ~~~
@@ -42,14 +46,14 @@ A Javascript learning project. Just doodle!
 
 ## Ellipsoidal Earth with trajectory animation
 
-\mtt{/assets/earth_spin (1).gif}{Trajectory of a rocket from GPS time series data projected accurately onto as WSG84 model of the Earth.}
+\mtt{/assets/earth_spin.gif}{Trajectory of a rocket from GPS time series data projected accurately onto as WSG84 model of the Earth.}
 
 ## Interactive stress-strain curve
 
 We can model a simple polymer material with molecular dynamics and interactively output coordinates to Makie. 
 
 
-\mtt{/assets/nvearinter (1).gif}{Figure 1: Basic initialization}
+\mtt{/assets/nvearinter.gif}{Figure 1: Basic initialization}
 
  
 \mtt{/assets/stretchpolymer.gif}{Figure 2: Stretching}

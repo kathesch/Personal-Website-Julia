@@ -2,56 +2,38 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
-    <loc>blog/index.html</loc>
-    <lastmod>2022-08-24</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-</url>
-<url>
-    <loc>research/index.html</loc>
-    <lastmod>2022-08-24</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-</url>
-<url>
-    <loc>cv/index.html</loc>
-    <lastmod>2022-08-24</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-</url>
-<url>
-    <loc>etchsketch/README/index.html</loc>
-    <lastmod>2023-06-25</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-</url>
-<url>
-    <loc>index.html</loc>
-    <lastmod>2022-10-07</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-</url>
-<url>
     <loc>project_showcase/index.html</loc>
-    <lastmod>2023-06-25</lastmod>
+    <lastmod>2023-07-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
 </url>
 <url>
     <loc>about/index.html</loc>
-    <lastmod>2022-10-03</lastmod>
+    <lastmod>2023-07-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
 </url>
 <url>
-    <loc>calculator/index/</loc>
-    <lastmod>2023-06-25</lastmod>
+    <loc>blog/index.html</loc>
+    <lastmod>2023-07-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
 </url>
 <url>
-    <loc>etchsketch/index/</loc>
-    <lastmod>2023-06-25</lastmod>
+    <loc>cv/index.html</loc>
+    <lastmod>2023-07-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>index.html</loc>
+    <lastmod>2023-07-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>research/index.html</loc>
+    <lastmod>2023-07-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
 </url>
